@@ -1,0 +1,30 @@
+[
+    {
+    "translation": "идти",
+      "forms": ["gehen", "ging", "gegangen"],
+      "examples": [
+        {
+          "translation": "He went home.",
+          "example": "Er ging nach Hause."
+        },
+        {
+          "translation": "I go to school.",
+          "example": "Ich gehe zur Schule."
+        }
+      ]
+    },
+    {
+      "forms": ["empfehlen", "empfahl", "empfohlen"],
+      "translation": "советовать",
+      "examples": [
+        {
+          "translation": "I advise You this book.",
+          "example": "Ich empfehle Ihnen dieses Buch."
+        },
+        {
+          "translation": "He went home.",
+          "example": "Ich habe euch diesen Laden empfohlen."
+        }
+      ]
+    }
+  ]
