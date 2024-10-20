@@ -1,30 +1,273 @@
 [
-    {
+  {
     "translation": "идти",
-      "forms": ["gehen", "ging", "gegangen"],
-      "examples": [
-        {
-          "translation": "He went home.",
-          "example": "Er ging nach Hause."
-        },
-        {
-          "translation": "I go to school.",
-          "example": "Ich gehe zur Schule."
-        }
-      ]
-    },
+    "forms": [
+      "gehen",
+      "ging",
+      "gegangen",
+      "geht"
+    ],
+    "examples": [
+      {
+        "translation": "He went home.",
+        "example": "Er ging nach Hause."
+      },
+      {
+        "translation": "I go to school.",
+        "example": "Ich gehe zur Schule."
+      }
+    ]
+  },
+  {
+    "forms": [
+      "benutzen",
+      "benutzte",
+      "benutzt",
+      "benutzt"
+    ],
+    "translation": "использовать",
+    "examples": [
+      {
+        "translation": "He uses the computer.",
+        "example": "Er benutzt den Computer."
+      }
+    ]
+  },
+  {
+    "forms": [
+      "empfehlen",
+      "empfahl",
+      "empfohlen",
+      "empfiehlt"
+    ],
+    "translation": "советовать",
+    "examples": [
+      {
+        "translation": "He advises You this book.",
+        "example": "Er empfiehlt Ihnen dieses Buch."
+      },
+      {
+        "translation": "Вы советуете мне решение.",
+        "example": "Ihr empfehlt mir eine Lösung."
+      },
+      {
+        "translation": "He went home.",
+        "example": "Ich habe euch diesen Laden empfohlen."
+      }
+    ]
+  },
+  {
+    "forms": [
+      "bewegen",
+      "bewegte",
+      "bewegt",
+      "bewegt"
+    ],
+    "translation": "двигать",
+    "examples": [
+      {
+        "translation": "He move the table.",
+        "example": "Er bewegt den Tisch."
+      }
+    ]
+  },
+  {
+    "forms": [
+      "behalten",
+      "behielt",
+      "behalten",
+      "behält"
+    ],
+    "translation": "держать",
+    "examples": [
+      {
+        "translation": "Вы держите собаку?",
+        "example": "Behältst du den Hund?"
+      }
+    ]
+  },
+  {
+    "forms": [
+      "entstehen",
+      "entstand",
+      "entstanden",
+      "entsteht"
+    ],
+    "translation": "возникать",
+    "examples": [
+      {
+        "translation": "He finds problems before they happen.",
+        "example": "Er findet das Problem, bevor es entsteht."
+      }
+    ]
+  },
+  {
+    "forms": [
+      "einladen",
+      "einlud",
+      "eingeladen",
+      "einlädt"
+    ],
+    "translation": "приглашать",
+    "examples": [
+      {
+        "translation": "He invites you to the party.",
+        "example": "Er lädt Sie ein zum Fest."
+      },
+      {
+        "translation": "I visit you, if you invite me.",
+        "example": "Ich besuche dich, wenn du mich einlädst."
+      }
+    ]
+  },
+  {
+    "forms": [
+      "verzichten",
+      "verzichtete",
+      "verzichtet",
+      "verzichtet"
+    ],
+    "translation": "отказывать",
+    "examples": [
+      {
+        "translation": "He doesn't want to go to the party.",
+        "example": "Ich verzichtete darauf, Fleisch zu essen."
+      },
+      {
+        "translation": "Ich verzichte auf die Arbeit.",
+        "example": "Ich verzichte auf die Arbeit."
+      }
+    ]
+  },
+  {
+    "forms": [
+      "herstellen",
+      "herstellte",
+      "hergestellt",
+      "herstellt"
+    ],
+    "translation": "делать, устанавливать",
+    "examples": [
+      {
+        "translation": "Er stellt die Tische her.",
+        "example": "Er stellt die Tische her."
+      }
+    ]
+  },
+  {
+    "forms": [
+      "scheinen",
+      "schien",
+      "schein",
+      "scheint"
+    ],
+    "translation": "появляться",
+    "examples": [
+      {
+        "translation": "Er scheint mir ein guter Mann.",
+        "example": "Er scheint mir ein guter Mann."
+      }
+    ]
+  },
+  {
+    "forms": [
+      "schicken",
+      "schickte",
+      "geschickt",
+      "schickt"
+    ],
+    "translation": "отправлять",
+    "examples": [
+      {
+        "translation": "Er schickt mir eine E-Mail.",
+        "example": "Er schickt mir eine E-Mail."
+      }
+    ]
+  },
+  {
+    "forms": [
+      "wahlen",
+      "wahlte",
+      "gewählt",
+      "wählt"
+    ],
+    "translation": "выбирать",
+    "examples": [
+      {
+        "translation": "Er wählt die richtige Antwort.",
+        "example": "Er wählt die richtige Antwort."
+      }
+    ]
+  },
+  {
+    "forms": [
+      "verhalten",
+      "verhielt",
+      "verhalten",
+      "verhält"
+    ],
+    "translation": "вести",
+    "examples": [
+      {
+        "translation": "Er verhält sich nett.",
+        "example": "Er verhält sich nett."
+      }
+    ]
+  },
+  {
+    "forms": ["zerbrechen", "zerbrach", "zerbrochen", "zerbricht"],
+    "translation": "ломать",
+    "examples": [
+      {
+        "translation": "Er zerbrach die Tasse.",
+        "example": "Er zerbrach die Tasse."
+      }
+    ]
+  },
+  {
+    "forms": ["erleben", "erlebte", "erlebt", "erlebt"],
+    "translation": "переживать",
+    "examples": [
+      {
+        "translation": "Er erlebt die Gefahr.",
+        "example": "Er erlebt die Gefahr."
+      }
+    ]
+  },
+{
+  "forms": ["losfahren", "losfahrte", "losgefahren", "losfährt"],
+  "translation": "отправляться",
+  "examples": [
     {
-      "forms": ["empfehlen", "empfahl", "empfohlen"],
-      "translation": "советовать",
-      "examples": [
-        {
-          "translation": "I advise You this book.",
-          "example": "Ich empfehle Ihnen dieses Buch."
-        },
-        {
-          "translation": "He went home.",
-          "example": "Ich habe euch diesen Laden empfohlen."
-        }
-      ]
+      "translation": "Er fährt los.",
+      "example": "Er fährt los."
     }
   ]
+},
+{
+  "forms": ["verbringen", "verbrachte", "verbracht", "verbracht"],
+  "translation": "проводить",
+  "examples": [
+    {
+      "translation": "Er verbringt seine Freizeit im Park.",
+      "example": "Er verbringt seine Freizeit im Park."
+    }
+  ]
+},
+{
+  "forms": ["verbringen", "verbrachte", "verbracht", "verbracht"],
+  "translation": "проводить",
+  "examples": [
+    {
+      "translation": "Er verbringt seine Freizeit im Park.",
+      "example": "Er verbringt seine Freizeit im Park."
+    }
+  ]
+}
+]
+//   abholen • empfehlen •  •  • ausschlafen • herstellen • •
+//  • herausfinden • entstehen •  •  • nachdenken • vorschlagen •
+// ankommen • gefallen • entspannen • zerbrechen •  • herumlaufen fuhren, such verhalten
+
+
+Der Unfall entstand aus einem simplen Fehler

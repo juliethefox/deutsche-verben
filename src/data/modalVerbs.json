@@ -1,0 +1,51 @@
+{
+  "haben0": {
+    "Präsens": {
+      "ich": "habe"
+    }
+  },
+  "haben": {
+    "Präsens": {
+      "ich": "habe",
+      "du": "hast",
+      "er/sie/es": "hat",
+      "wir": "haben",
+      "ihr": "habt",
+      "sie/Sie": "haben"
+    },
+    "Präteritum": {
+      "ich": "hatte",
+      "du": "hattest",
+      "er/sie/es": "hatte",
+      "wir": "hatten",
+      "ihr": "hattet",
+      "sie/Sie": "hatten"
+    }
+  },
+  "haben2": {
+    "Präsens": {
+      "ich": "habe",
+      "du": "hast",
+      "er/sie/es": "hat",
+      "wir": "haben",
+      "ihr": "habt",
+      "sie/Sie": "haben"
+    },
+    "Präteritum": {
+      "ich": "hatte",
+      "du": "hattest",
+      "er/sie/es": "hatte",
+      "wir": "hatten",
+      "ihr": "hattet",
+      "sie/Sie": "hatten"
+    },
+    "Perfekt": {
+      "ich": "habe gehabt",
+      "du": "hast gehabt",
+      "er/sie/es": "hat gehabt",
+      "wir": "haben gehabt",
+      "ihr": "habt gehabt",
+      "sie/Sie": "haben gehabt"
+    }
+  }
+}

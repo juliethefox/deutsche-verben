@@ -15,14 +15,15 @@ interface LearningCardProps {
 }
 
 const LearningCard: React.FC<LearningCardProps> = ({ word, onNextWord }) => {
-  const [formInputs, setFormInputs] = useState(['', '', '']);
+  const [formInputs, setFormInputs] = useState(['', '', '', '']);
   const [exampleInputs, setExampleInputs] = useState(word.examples.map(() => ''));
   const [formCorrect, setFormCorrect] = useState([false, false, false]);
   const [exampleCorrect, setExampleCorrect] = useState(word.examples.map(() => false));
-  const [allCorrect, setAllCorrect] = useState(false);
 
   useEffect(() => {
-    checkAllCorrect();
+    if (checkAllCorrect()) {
+      handleNext();
+    }
   }, [formCorrect, exampleCorrect]);
 
   const removePunctuation = (str: string) => {
@@ -37,30 +38,24 @@ const LearningCard: React.FC<LearningCardProps> = ({ word, onNextWord }) => {
     const newFormInputs = [...formInputs];
     newFormInputs[index] = value;
     setFormInputs(newFormInputs);
+    
+    const newFormCorrect = [...formCorrect];
+    newFormCorrect[index] = validateInput(value, word.forms[index]);
+    setFormCorrect(newFormCorrect);
   };
 
   const handleExampleChange = (index: number, value: string) => {
     const newExampleInputs = [...exampleInputs];
     newExampleInputs[index] = value;
     setExampleInputs(newExampleInputs);
-  };
-
-  const handleFormBlur = (index: number) => {
-    const newFormCorrect = [...formCorrect];
-    newFormCorrect[index] = validateInput(formInputs[index], word.forms[index]);
-    setFormCorrect(newFormCorrect);
-  };
-
-  const handleExampleBlur = (index: number) => {
+    
     const newExampleCorrect = [...exampleCorrect];
-    newExampleCorrect[index] = validateInput(exampleInputs[index], word.examples[index].example);
+    newExampleCorrect[index] = validateInput(value, word.examples[index].example);
     setExampleCorrect(newExampleCorrect);
   };
 
   const checkAllCorrect = () => {
-    const allFormsCorrect = formCorrect.every(Boolean);
-    const allExamplesCorrect = exampleCorrect.every(Boolean);
-    setAllCorrect(allFormsCorrect && allExamplesCorrect);
+    return formCorrect.every(Boolean) && exampleCorrect.every(Boolean);
   };
 
   const handleNext = () => {
@@ -68,7 +63,6 @@ const LearningCard: React.FC<LearningCardProps> = ({ word, onNextWord }) => {
     setExampleInputs(word.examples.map(() => ''));
     setFormCorrect([false, false, false]);
     setExampleCorrect(word.examples.map(() => false));
-    setAllCorrect(false);
     onNextWord();
   };
 
@@ -82,8 +76,12 @@ const LearningCard: React.FC<LearningCardProps> = ({ word, onNextWord }) => {
               type="text"
               value={formInputs[index]}
               onChange={(e) => handleFormChange(index, e.target.value)}
-              onBlur={() => handleFormBlur(index)}
-              placeholder={`Form ${index + 1}`}
+              placeholder={
+                index === 0 ? "Infinitiv" :
+                index === 1 ? "Präteritum" :
+                index === 2 ? "Präteritum" :
+                "Er/sie/es"
+              }
               className={formInputs[index] ? (formCorrect[index] ? 'correct' : 'incorrect') : ''}
             />
             {formInputs[index] && (
@@ -103,7 +101,6 @@ const LearningCard: React.FC<LearningCardProps> = ({ word, onNextWord }) => {
                 type="text"
                 value={exampleInputs[index]}
                 onChange={(e) => handleExampleChange(index, e.target.value)}
-                onBlur={() => handleExampleBlur(index)}
                 placeholder="Enter example"
                 className={exampleInputs[index] ? (exampleCorrect[index] ? 'correct' : 'incorrect') : ''}
               />
@@ -116,7 +113,7 @@ const LearningCard: React.FC<LearningCardProps> = ({ word, onNextWord }) => {
           </div>
         ))}
       </div>
-      {allCorrect && <button onClick={handleNext}>Next Word</button>}
+      <button onClick={handleNext}>Next Word</button>
     </div>
   );
 };
