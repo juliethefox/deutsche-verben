@@ -47,7 +47,7 @@ const ModalVerbCard: React.FC<ModalVerbProps> = ({ modalVerb, verbName, onNextVe
         <div key={tense} className="tense-table">
           <h3>{tense}</h3>
           <div className="forms">
-            {Object.entries(pronouns).map(([pronoun, correctAnswer]) => {
+            {Object.entries(pronouns).map(([pronoun]) => {
               const inputKey = `${tense}_${pronoun}`;
               return (
                 <div key={pronoun} className="form-input">
