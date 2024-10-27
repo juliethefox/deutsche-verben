@@ -215,7 +215,12 @@
     ]
   },
   {
-    "forms": ["zerbrechen", "zerbrach", "zerbrochen", "zerbricht"],
+    "forms": [
+      "zerbrechen",
+      "zerbrach",
+      "zerbrochen",
+      "zerbricht"
+    ],
     "translation": "ломать",
     "examples": [
       {
@@ -225,7 +230,12 @@
     ]
   },
   {
-    "forms": ["erleben", "erlebte", "erlebt", "erlebt"],
+    "forms": [
+      "erleben",
+      "erlebte",
+      "erlebt",
+      "erlebt"
+    ],
     "translation": "переживать",
     "examples": [
       {
@@ -234,40 +244,49 @@
       }
     ]
   },
-{
-  "forms": ["losfahren", "losfahrte", "losgefahren", "losfährt"],
-  "translation": "отправляться",
-  "examples": [
-    {
-      "translation": "Er fährt los.",
-      "example": "Er fährt los."
-    }
-  ]
-},
-{
-  "forms": ["verbringen", "verbrachte", "verbracht", "verbracht"],
-  "translation": "проводить",
-  "examples": [
-    {
-      "translation": "Er verbringt seine Freizeit im Park.",
-      "example": "Er verbringt seine Freizeit im Park."
-    }
-  ]
-},
-{
-  "forms": ["verbringen", "verbrachte", "verbracht", "verbracht"],
-  "translation": "проводить",
-  "examples": [
-    {
-      "translation": "Er verbringt seine Freizeit im Park.",
-      "example": "Er verbringt seine Freizeit im Park."
-    }
-  ]
-}
+  {
+    "forms": [
+      "losfahren",
+      "losfahrte",
+      "losgefahren",
+      "losfährt"
+    ],
+    "translation": "отправляться",
+    "examples": [
+      {
+        "translation": "Er fährt los.",
+        "example": "Er fährt los."
+      }
+    ]
+  },
+  {
+    "forms": [
+      "verbringen",
+      "verbrachte",
+      "verbracht",
+      "verbracht"
+    ],
+    "translation": "проводить",
+    "examples": [
+      {
+        "translation": "Er verbringt seine Freizeit im Park.",
+        "example": "Er verbringt seine Freizeit im Park."
+      }
+    ]
+  },
+  {
+    "forms": [
+      "verbringen",
+      "verbrachte",
+      "verbracht",
+      "verbracht"
+    ],
+    "translation": "проводить",
+    "examples": [
+      {
+        "translation": "Er verbringt seine Freizeit im Park.",
+        "example": "Er verbringt seine Freizeit im Park."
+      }
+    ]
+  }
 ]
-//   abholen • empfehlen •  •  • ausschlafen • herstellen • •
-//  • herausfinden • entstehen •  •  • nachdenken • vorschlagen •
-// ankommen • gefallen • entspannen • zerbrechen •  • herumlaufen fuhren, such verhalten
-
-
-Der Unfall entstand aus einem simplen Fehler

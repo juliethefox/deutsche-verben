@@ -136,7 +136,7 @@ button:hover {
 
 .modal-verb-card input[type="text"] {
   flex-grow: 1;
-  max-width: 200px; // Adjust as needed
+  max-width: 200px; 
 }
 
 .form-label, .example-label, .tense-label, .sentence-label {
@@ -213,7 +213,7 @@ button[type="button"]:hover {
 .sentence-card .sentence-input {
   display: flex;
   align-items: center;
-  margin-bottom: 5px; // Reduced from 10px
+  margin-bottom: 5px; 
 }
 
 .modal-verb-card input {
@@ -222,7 +222,7 @@ button[type="button"]:hover {
 }
 
 .pronoun {
-  font-size: 14px; // Smaller size for pronouns
-  min-width: 40px; // Ensure consistent width
+  font-size: 14px; 
+  min-width: 40px;
   margin-right: 10px;
 }

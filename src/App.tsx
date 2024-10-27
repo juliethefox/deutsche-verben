@@ -8,6 +8,13 @@ import sentencesData from './data/sentences.json';
 import ModalVerbCard from './components/ModalVerbCard';
 import SentenceCard from './components/SentenceCard';
 
+//   abholen • empfehlen •  •  • ausschlafen • herstellen • •
+//  • herausfinden • entstehen •  •  • nachdenken • vorschlagen •
+// ankommen • gefallen • entspannen • zerbrechen •  • herumlaufen fuhren, such verhalten
+
+
+//Der Unfall entstand aus einem simplen Fehler
+
 interface Word {
   forms: string[];
   translation: string;
